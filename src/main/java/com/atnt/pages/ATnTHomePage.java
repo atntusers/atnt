@@ -23,6 +23,7 @@ import com.atnt.framework.common.TestSession;
  *
  *  
  */
+
 public class ATnTHomePage {
 
     private WebDriver driver;// = selenium.getDriver();
@@ -62,22 +63,8 @@ public class ATnTHomePage {
 	/**
 	 *   Method to click all Primary Nav Links
 	 */
-	//@Test
 	public void ClickonPrimaryNav_AllLinks_And_SearchBox() {
-		common.impicitWait(10);
-		//common.explicitWait(By.xpath(Elements.primaryNavHomeLogoLink));
-		//PrimaryNavHomeLogoLink.click();
-		//common.impicitWait(10);
-		//Reporter.log("-clicked on PrimaryNavHomeLogoLink -", true);		
-		common.moveto(PrimaryNavShopLink);
-		common.explicitWait(By.xpath(Elements.primaryNavShopWirelessLink));
-		common.impicitWait(10);
-		common.moveto(PrimaryNavShopWirelessLink);
-		common.explicitWait(By.xpath(Elements.primaryNavShopWirelessSmartPhone));
-		common.impicitWait(10);
-		PrimaryNavShopWirelessSmartPhone.click();
-		Reporter.log(" - clicked on PrimaryNavShopWirelessSmartPhone -", true);
-		common.impicitWait(10);
+		
 	}
 
  }

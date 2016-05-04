@@ -62,20 +62,7 @@ public class ATnT_EDS_AvailabilityPage {
 	 *   Method to click all Primary Nav Links
 	 */
 	public void ClickonPrimaryNav_AllLinks_And_SearchBox() {
-		common.impicitWait(10);
-		//common.explicitWait(By.xpath(Elements.primaryNavHomeLogoLink));
-		//PrimaryNavHomeLogoLink.click();
-		//common.impicitWait(10);
-		//Reporter.log("-clicked on PrimaryNavHomeLogoLink -", true);		
-		common.moveto(PrimaryNavShopLink);
-		common.explicitWait(By.xpath(Elements.primaryNavShopWirelessLink));
-		common.impicitWait(10);
-		common.moveto(PrimaryNavShopWirelessLink);
-		common.explicitWait(By.xpath(Elements.primaryNavShopWirelessSmartPhone));
-		common.impicitWait(10);
-		PrimaryNavShopWirelessSmartPhone.click();
-		Reporter.log(" - clicked on PrimaryNavShopWirelessSmartPhone -", true);
-		common.impicitWait(10);
+		
 	}
 
  }
