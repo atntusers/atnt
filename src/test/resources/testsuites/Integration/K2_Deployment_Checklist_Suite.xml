@@ -1,0 +1,112 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SXMRegression" configfailurepolicy="continue" thread-count="8"
+    verbose="1">
+        
+	<test name="Regression Tests" preserve-order="false" parallel="classes">
+		<classes>
+			<class name="com.selenium.web.sanity.GeoRestrictionTests">
+                 <methods>
+                     <include name="testLocationRestriction"></include>
+                 </methods>
+            </class>
+			<class name="com.selenium.web.sanity.MyMixTests">
+				<methods>
+				    <include name="myMixSkip"></include>
+				    <include name="myMixSkipPopUp"></include>
+				    <include name="verifyMySXMNPLPage"></include>
+				    <include name="verifyMyMixNPLPage"></include>
+				    <include name="Favorites_icon_functionality_NavigationBar"></include>
+				    <include name="myMixListedUnderCustomChannels"></include>
+				    <include name="moreLikeThis_MySXM"></include>
+				    <include name="verifyYouJustHeard"></include>
+				    <include name="verifyMysxmRecentlyPlayed"></include>
+				</methods>
+			</class>  
+			  <class name="com.selenium.web.sanity.LoginTests">
+				<methods>
+				    <include name="clickinloginpage"></include>
+				    <include name="login_Positive_back15"></include>
+				    <include name="login_Negative"></include>
+				</methods>
+			</class>
+			<class name="com.selenium.web.sanity.WelcomeScreenTest"/>
+			<class name="com.selenium.web.sanity.PlayHeadTest">
+				<methods>
+				    <include name="verifySkipLmtForUnrestrictedChannel"></include>
+				</methods>
+			</class> 
+			<class name="com.selenium.web.sanity.SearchTests">
+			    <methods>
+			        <include name="verifyTuneStartOnOff"></include>
+			        <include name="search_AutoSuggest"></include>
+			    </methods>
+			</class> 
+			<class name="com.selenium.web.sanity.ChannelEDPTest">
+			     <methods>
+			        <include name="verifychannelEDP"></include>
+			    </methods>
+			</class>
+			<class name="com.selenium.web.sanity.ShowEDPTests">
+			     <methods>
+			        <include name="verifyShowEDPcontents"></include>
+			    </methods>
+			</class> 
+			<class name="com.selenium.web.sanity.MoreLikeThis">
+			    <methods>
+			        <include name="moreLikeThis_live"></include>
+			    </methods>
+			</class> 
+			<class name="com.selenium.web.sanity.NowplayingAODTest">
+				<methods>
+				    <include name="playAOD_FromSearch"></include>
+				    <include name="verifyNPLSegments_AOD"></include>
+				    <include name="shareIconFromAODList"></include>
+				    <include name="verifyAODArtisBioCampContent"></include>
+				    <include name="verifyAODChannelLogo"></include>
+				</methods>
+			</class>
+			<class name="com.selenium.web.sanity.FeaturedTweetTest"/>
+			<class name="com.selenium.web.sanity.MeTests">
+			    <methods>
+			        <include name="buildnumber"></include>
+			         <include name="SetNotifications_verifyUnderME"></include>
+			    </methods>
+			</class>
+			<class name="com.selenium.web.sanity.ChannelTests">
+			    <methods>
+			        <include name="verifyYMAL"></include>
+			    </methods>
+			</class>
+			<class name="com.selenium.web.sanity.NowPlayingLiveTest">
+				<methods>
+				    <include name="liveChannelTuniung"></include>
+				    <include name="verifyArtistBio"></include>
+				    <include name="verifyMiniPlayer"></include>
+				     <include name="testBuyTracks"></include>
+				     <include name="verifyFbTwitterTracks"></include>
+				</methods>
+			</class> 
+			<class name="com.selenium.web.sanity.GeoRestrictionTests">
+                 <methods>
+                     <include name="testLocationRestriction"></include>
+                 </methods>
+            </class>
+			<class name="com.selenium.web.sanity.MyMixTests">
+				<methods>
+				    <include name="myMixSkip"></include>
+				    <include name="myMixSkipPopUp"></include>
+				    <include name="mySXM_Favorite"></include>
+				    <include name="verifyMySXMNPLPage"></include>
+				    <include name="verifyMyMixNPLPage"></include>
+				    <include name="Favorites_icon_functionality_NavigationBar"></include>
+				    <include name="myMixListedUnderCustomChannels"></include>
+				    <include name="moreLikeThis_MySXM"></include>
+				    <include name="tuneToMyMixFromMLT"></include>
+				    <include name="verifyYouJustHeard"></include>
+				    <include name="verifyMysxmRecentlyPlayed"></include>
+				</methods>
+			</class>  
+		</classes>
+	</test>
+</suite>
+

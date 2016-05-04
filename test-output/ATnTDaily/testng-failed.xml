@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ATnTDaily]">
+  <test name="Sanity Tests(failed)">
+    <classes>
+      <class name="com.selenium.web.sanity.ATnTHomeTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="closeMenu"/>
+          <include name="initialize"/>
+          <include name="Clicking_PrimaryNav_AllLinks"/>
+        </methods>
+      </class> <!-- com.selenium.web.sanity.ATnTHomeTest -->
+    </classes>
+  </test> <!-- Sanity Tests(failed) -->
+</suite> <!-- Failed suite [ATnTDaily] -->

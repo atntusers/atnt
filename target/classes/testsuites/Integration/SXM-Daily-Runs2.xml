@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SXMDaily" configfailurepolicy="continue"
+	thread-count="8" verbose="1">
+
+	<test name="Regression Tests ---3" preserve-order="false"
+		parallel="classes">
+		<classes>
+			<class name="com.selenium.web.sanity.MeTests" />
+			<class name="com.selenium.web.sanity.MyMixTests" />
+			<class name="com.selenium.web.sanity.NowplayingAODTest" />
+			<class name="com.selenium.web.sanity.NowPlayingLiveTest" />
+			<class name="com.selenium.web.sanity.PlayHeadTest" />
+		</classes>
+	</test>
+
+
+
+</suite>

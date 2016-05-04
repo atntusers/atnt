@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SXMDaily" configfailurepolicy="continue"
+	thread-count="8" verbose="1">
+
+<test name="Regression Tests ---2" preserve-order="false" parallel="classes">
+		<classes>			
+			 <class name="com.selenium.web.sanity.ShowEDPTests"/> 
+			 <class name="com.selenium.web.sanity.WelcomeScreenTest"/> 
+			<class name="com.selenium.web.sanity.YouJustHeard"/>
+			<class name="com.selenium.web.sanity.RecentTests"/> 
+			<class name="com.selenium.web.sanity.SearchTests"/>
+		</classes>
+	</test>
+</suite>

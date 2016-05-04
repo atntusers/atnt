@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="245" started-at="2016-05-04T09:07:31Z" finished-at="2016-05-04T09:07:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="245" started-at="2016-05-04T09:07:31Z" finished-at="2016-05-04T09:07:31Z">
+      <class name="com.atnt.pages.ATnTHomePage">
+        <test-method status="FAIL" signature="ClickonPrimaryNav_AllLinks_And_SearchBox()[pri:0, instance:null]" name="ClickonPrimaryNav_AllLinks_And_SearchBox" duration-ms="125" started-at="2016-05-04T14:37:31Z" finished-at="2016-05-04T14:37:31Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Can't invoke public void com.atnt.pages.ATnTHomePage.ClickonPrimaryNav_AllLinks_And_SearchBox(): either make it static or add a no-args constructor to your class]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Can't invoke public void com.atnt.pages.ATnTHomePage.ClickonPrimaryNav_AllLinks_And_SearchBox(): either make it static or add a no-args constructor to your class
+	at org.testng.internal.Utils.checkInstanceOrStatic(Utils.java:785)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:41)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickonPrimaryNav_AllLinks_And_SearchBox -->
+      </class> <!-- com.atnt.pages.ATnTHomePage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,166 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SXMDaily" parallel="tests" configfailurepolicy="continue"
+	thread-count="4" verbose="1">
+
+	<test name="Sanity Tests1" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SmokeTest">
+				<methods>
+					<include name="recentlyPlayed4ChannelsOnDemandEpisodes" />
+					<include name="customerAgreementPrivacyPolicy" />
+					<include name="back15AODvalidation" />
+					<include name="audioqualitychecking" />
+					<include name="verifyYml" />
+					<include name="ctxMenuVerificationForYmal" />
+					<include name="verifyAODShownameRestartLinkFavRestartShow" />
+					<include name="manageNotifications" />
+					<include name="helpOptions" />
+					<include name="aodToLive" />
+					<include name="verifychannelEDP" />
+					<include name="verifyLiveFeatureTweetsPosts" />
+					<include name="verifyAODArtisBioCampContent" />
+					<include name="verifySkipLmtForUnrestrictedOnDemand" />
+					<include name="clearRecentlyPlayedChannel" />
+					<include name="clearAllRecentlyPlayedList" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Sanity Tests2" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SmokeTest">
+				<methods>
+			
+					<include name="verifyArtistBio" />
+					<include name="verifyAODmusicChannelBack15" />
+					<include name="verifyAOD_YJH_share_buy" />
+					<include name="verifyTuneChannelFromSearch" />
+					<include name="verifyWelcomeScreenAndCarousel" />
+					<include name="verifyShowResults" />
+					<include name="verifyFeedbackFromSearch" />
+					<include name="verifyFeedbackFromME" />
+					<include name="verifyYouJustHeard" />
+					<include name="verifyYouJustHeard_myMix" />
+					<include name="tuneToShowFromNotifications" />
+					<include name="DeleteNotifications" />
+					<include name="notifications" />
+					<include name="playfromNotificationsPop" />
+					<include name="closefromNotificationsPop" />
+					<include name="offContinueListening" />
+					<include name="verifyContextualmenuChannelResults" />
+					<include name="verifySeeAllChannelResults" />
+					<include name="verifyChannelShortDescription" />
+					<include name="validateSearchField" />
+					<include name="validateCancelInSearch" />
+					<include name="validateRecentSearchHeader" />
+					<include name="verifyClearRecentSearchHistory" />
+					<include name="validateChannelResult" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="Sanity Tests3" preserve-order="false" parallel="tests">
+		<classes>
+			<class name="com.selenium.web.sanity.SmokeTest">
+				<methods>
+					<include name="login_Positive_back15" />
+					<include name="login_Negative" />
+					<include name="empty_credentials" />
+					<include name="clickinloginpage" />
+					<include name="play_skip" />
+					<include name="skip_Live" />
+					<include name="disallowedChannels" />
+					<include
+						name="unrestricted_scrubbing_verify_restartButton_infoIcon_showName" />
+					<include name="restricted_scrubbing" />
+					<include name="liveChannelTuniung" />
+					<include name="favorites_icon_functionality" />
+					<include name="verifyChannelsMenu" />
+					<include name="buildnumber" />
+					<include name="playhaed_Back15" />
+					<include name="back15_icon_custommix" />
+					<include name="back15_icon_sports" />
+					<include name="back15_icon_talk" />
+					<include name="search_AutoSuggest" />
+					<include name="invalidSearch" />
+					<include name="nonLiveshow_showEDp" />
+					<include name="disallowed_previouslyheard_tracks" />
+					<include name="editCustomMix" />
+					<include name="customMixUnderMel" />
+					<include name="editCustomMix_saveCancel" />
+					<include name="custommix_shareicon" />
+					<include name="Favorites_icon_functionality_NavigationBar" />
+					<include name="playFromShowEdp" />
+					<include name="tune_Fav_LiveChannels" />
+					<include name="currentChannel_Recents" />
+					<include name="mySXM_ListenToLive" />
+					<include name="mySXM_Favorite" />
+					<include name="moreLikeThis_MySXM" />
+					<include name="moreLikeThis_live" />
+					<include name="aaExplore_channels_and_shows" />
+					<include name="addRemoveFavorites" />
+					<include name="audioQuality" />
+					<include name="TuneToliveFromRecentlyPlayed" />
+					<include name="favFromRecentlyPlayed" />
+					<include name="favFromRecentlyPlayed_myMix" />
+					<include name="favFromRecentlyPlayed_AOD" />
+					<include name="channelEDP" />
+					<include name="connectModule" />
+					<include name="showsDisplayed" />
+										</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- 
+	<test name="Sanity Tests4" preserve-order="false" parallel="tests">
+		<classes>
+			<class name="com.selenium.web.sanity.SmokeTest">
+				<methods>
+					<include name="currentMyMixRecentPlayed" />
+					<include name="myMixListedUnderCustomChannels" />
+					<include name="myMixSkip" />
+					<include name="myMixSkipPopUp" />
+					<include name="myMixNextLogin" />
+					<include name="channelEDP_MyMix" />
+					<include name="channelEDP_MyMix_ConnectModule" />
+					<include name="tuneToMyMixFromMLT" />
+					<include name="liveSkip4Recommendations" />
+					<include name="seeAllResults_clear" />
+					<include name="seeAllResults" />
+					<include name="seeAllResults_Duplicates" />
+					<include name="viewavailableepisodesinNPL" />
+					<include name="verifyShowEDPcontents" />
+					<include name="seeAllResults_submitSearch" />
+					<include name="playAOD_FromSearch" />
+					<include name="SetNotifications_verifyUnderME" />
+					<include name="showEDPBackToChannelEDP" />
+					<include name="verifyNPLSegments_AOD" />
+					<include name="verifyNPLSegments_Live" />
+					<include name="verifyFavoriteChannelsAndShowsMore" />
+					<include name="verifyChannelListAndShowsElasticity" />
+					<include name="verifyfavoritesListSwipIcons" />
+					<include name="verifyNavFromfavShowTo_ShowEDP" />
+					<include name="ondemandPageValidation" />
+					<include name="shareIconFromAODList" />
+					<include name="verifyOnlyOneEpisode" />
+					<include name="addRemoveFavoritesinAOD" />
+					<include name="verifyAODRecentlist" />
+					<include name="AODRecentlistvalidation1" />
+					<include name="restrictedAODvalidation" />
+					<include name="consumeIndicatorvalidation" />
+					<include name="tuneAODChannel" />
+					<include name="verifySkipLmtForUnrestrictedChannel" />
+					<include name="restrictedPreviouslyHeardTracks" />
+					<include name="verifyUnrestrictedChannelSegmentsAndNav" />
+					<include name="verifyPlayerHead" />
+					</methods>
+			</class>
+		</classes>
+	</test> -->
+</suite>
+

@@ -1,0 +1,143 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SXMDaily" configfailurepolicy="continue" thread-count="4"
+    verbose="1">
+        
+<!--     <test name="Sanity Tests1" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SearchTests">
+				<methods>
+					<include name="validateSearchField" />
+					<include name="search_AutoSuggest" />
+					<include name="seeAllResults" />
+					<include name="seeAllResults_clear" />
+					<include name="validateCancelInSearch" />
+					<include name="validateRecentSearchHeader" />
+					<include name="verifyClearRecentSearchHistory" />
+					<include name="verifySeeAllChannelResults" />
+					<include name="verifyChannelShortDescription" />
+					<include name="validateChannelResult" />
+					<include name="verifyContextualmenuChannelResults" />
+					<include name="validateOnDemandEpisodeResult" />
+					<include name="validateShowsResult" />
+					<include name="validateNonTunableShowResultListItem" />
+					<include name="viewavailableepisodesinNPL" />
+					<include name="validateSeeAllSearchResults" />
+					<include name="verifyTuneChannelFromSearch" />
+					<include name="validateRepeatedRecentSearchResult" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Sanity Tests2" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SearchTests">
+				<methods>
+					<include name="validateSearchField" />
+					<include name="search_AutoSuggest" />
+					<include name="seeAllResults" />
+					<include name="seeAllResults_clear" />
+					<include name="validateCancelInSearch" />
+					<include name="validateRecentSearchHeader" />
+					<include name="verifyClearRecentSearchHistory" />
+					<include name="verifySeeAllChannelResults" />
+					<include name="verifyChannelShortDescription" />
+					<include name="validateChannelResult" />
+					<include name="verifyContextualmenuChannelResults" />
+					<include name="validateOnDemandEpisodeResult" />
+					<include name="validateShowsResult" />
+					<include name="validateNonTunableShowResultListItem" />
+					<include name="viewavailableepisodesinNPL" />
+					<include name="validateSeeAllSearchResults" />
+					<include name="verifyTuneChannelFromSearch" />
+					<include name="validateRepeatedRecentSearchResult" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Sanity Tests3" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SearchTests">
+				<methods>
+					<include name="validateSearchField" />
+					<include name="search_AutoSuggest" />
+					<include name="seeAllResults" />
+					<include name="seeAllResults_clear" />
+					<include name="validateCancelInSearch" />
+					<include name="validateRecentSearchHeader" />
+					<include name="verifyClearRecentSearchHistory" />
+					<include name="verifySeeAllChannelResults" />
+					<include name="verifyChannelShortDescription" />
+					<include name="validateChannelResult" />
+					<include name="verifyContextualmenuChannelResults" />
+					<include name="validateOnDemandEpisodeResult" />
+					<include name="validateShowsResult" />
+					<include name="validateNonTunableShowResultListItem" />
+					<include name="viewavailableepisodesinNPL" />
+					<include name="validateSeeAllSearchResults" />
+					<include name="verifyTuneChannelFromSearch" />
+					<include name="validateRepeatedRecentSearchResult" />
+					
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+<!-- 	<test name="Sanity Tests4" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SearchTests">
+				<methods>
+				   <include name="verifyFavourites" />
+				 	<include name="verifyLiveNowChannelPlay" />
+					<include name="verifyFavourites" />
+					<include name="verifyNoResultsSearch" />
+					<include name="verifySectionInSearch" />
+					<include name="verityResultsUpto25" />
+					<include name="verifyContextualmenuOptions" />
+					<include name="verifyOnDemandEpisodeSearch"></include>
+					<include name="verifyDulicatesInSearch"></include> 
+					<include name="verifyContextualmenuTapAlarm"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	<!-- <test name="Sanity Tests5" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.SearchTests">
+				<methods>
+				   <include name="verifyNowPlayingListSearch" /> 
+				<include name="verifyShowEDPPage"></include>
+				<include name="verifyDidYouMeanDynamicText"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	<!-- <test name="Sanity Tests5" preserve-order="false" >
+		<classes>
+			 <class name="com.selenium.web.sanity.ChannelTests">
+			     <methods>
+			         <include name="verifyOnDemandChannelSelected"></include>
+			         <include name="verifyDisplayShowEDP"></include>
+			         <include name="verifyShowDescription"></include>
+			         <include name="verifyAiredDate"></include>
+			         <include name="validateEpisodesNotHeardYet"></include>
+			     </methods>
+			     </class>
+		</classes>
+	</test>  -->
+	<test name="Sanity Tests5" preserve-order="false" >
+		<classes>
+			<class name="com.selenium.web.sanity.RecentTests">
+				<methods>
+				 <!--   <include name="verifyClearRecents" /> 
+				 <include name="verifyRecentlyPlayedLiveChannel"></include>
+				 <include name="verifyRecentlyPlayedContextualMenuFav"></include> 
+				 <include name="verifyRecentlyPlayedOnDemandChannelContextualMenu"></include> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>
+
